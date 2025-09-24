@@ -1,0 +1,12 @@
+[package]
+name = "my_rougue"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bevy = { workspace = true, features = ["dynamic_linking"] }
+log = { workspace = true, features = [
+    "release_max_level_info",
+    "max_level_debug",
+] }
