@@ -1,0 +1,10 @@
+[package]
+name = "fps_counter"
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bevy = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
